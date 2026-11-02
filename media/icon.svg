@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7C2E8A"/>
+      <stop offset="1" stop-color="#3A1248"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD84D"/>
+      <stop offset="1" stop-color="#FFAE1F"/>
+    </linearGradient>
+    <path id="bubble" d="M60 0h152a60 60 0 0 1 60 60v92a60 60 0 0 1-60 60h-90l-52 48a8 8 0 0 1-13-6v-42h3A60 60 0 0 1 0 152V60A60 60 0 0 1 60 0z"/>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <use href="#bubble" x="172" y="70" fill="#FFFFFF" fill-opacity=".28"/>
+  <use href="#bubble" x="122" y="118" fill="#FFFFFF" fill-opacity=".5"/>
+  <use href="#bubble" x="68" y="170" fill="#FFFFFF"/>
+  <circle cx="204" cy="276" r="74" fill="url(#face)"/>
+  <circle cx="178" cy="258" r="11" fill="#3A1248"/>
+  <circle cx="230" cy="258" r="11" fill="#3A1248"/>
+  <path d="M166 290c10 22 24 32 38 32s28-10 38-32" fill="none" stroke="#3A1248" stroke-width="12" stroke-linecap="round"/>
+</svg>
