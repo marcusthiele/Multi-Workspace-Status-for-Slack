@@ -78,7 +78,9 @@ test("verifyToken rejects tokens without the write scope", async () => {
 });
 
 test("verifyToken returns workspace details", async () => {
-  mockSlack(() => ({ ok: true, team: "Acme Labs", team_id: "T1", user: "me" }), { "x-oauth-scopes": "users.profile:write" });
+  mockSlack(() => ({ ok: true, team: "Acme Labs", team_id: "T1", user: "me" }), {
+    "x-oauth-scopes": "users.profile:write",
+  });
   assert.deepEqual(await verifyToken(" xoxp-1 "), { teamId: "T1", name: "Acme Labs", user: "me", token: "xoxp-1" });
 });
 
