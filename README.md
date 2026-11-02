@@ -6,6 +6,7 @@
 
 **Set your status once and apply it across all your selected Slack workspaces**
 
+[![Release](https://img.shields.io/github/v/release/marcusthiele/Multi-Workspace-Status-for-Slack?color=7C2E8A&sort=semver&style=for-the-badge)](https://github.com/marcusthiele/Multi-Workspace-Status-for-Slack/releases)
 [![Raycast](https://img.shields.io/badge/Raycast-Extension-7C2E8A?style=for-the-badge&logo=raycast&logoColor=white)](https://www.raycast.com)
 [![macOS](https://img.shields.io/badge/macOS-only-7C2E8A?style=for-the-badge&logo=apple&logoColor=white)](#-installation)
 [![License](https://img.shields.io/badge/License-MIT-7C2E8A?style=for-the-badge)](LICENSE)
@@ -139,6 +140,18 @@ To disconnect a workspace, remove it in **Manage Workspaces** and then delete th
 ## 👥 Contributing
 
 Open an [issue](https://github.com/marcusthiele/Multi-Workspace-Status-for-Slack/issues) for bugs and ideas. Pull requests are welcome.
+
+### Releases
+
+Add an entry at the top of `CHANGELOG.md` and commit it, then create and push a tag:
+
+```bash
+git tag -a v0.2.0 -m "v0.2.0"
+git push origin v0.2.0
+```
+
+The [release workflow](.github/workflows/release.yml) runs the tests, lint, and build, then creates
+the GitHub release from the latest changelog entry.
 
 ## ℹ️ Disclaimer
 
