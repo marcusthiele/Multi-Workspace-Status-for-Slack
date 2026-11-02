@@ -1,4 +1,4 @@
-# Slack Multi-Workspace Status Changelog
+# Multi-Workspace Status for Slack Changelog
 
 ## [Initial Version] - {PR_MERGE_DATE}
 

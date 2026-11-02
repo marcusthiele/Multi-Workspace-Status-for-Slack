@@ -1,4 +1,4 @@
-# Slack Multi-Workspace Status
+# Multi-Workspace Status for Slack
 
 Set your Slack status once and apply it to every workspace you choose. If you are a member of several Slack workspaces, you no longer have to update your status in each one.
 
@@ -64,3 +64,7 @@ Some workspaces only allow approved apps. If Slack shows **Request to Install** 
 Tokens are stored in Raycast's encrypted local storage and are sent only to `slack.com`. The extension requests only the `users.profile:write` scope and includes no analytics. Slack doesn't offer a narrower scope, so this one also allows changes to other profile fields, but the extension only changes your status.
 
 To disconnect a workspace, remove it in **Manage Workspaces** and then delete the app under [Your Apps](https://api.slack.com/apps).
+
+## Disclaimer
+
+This extension is not created by, affiliated with, or supported by Slack Technologies, LLC.
