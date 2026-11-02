@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "slack-multi-status",
+  "name": "multi-workspace-status-for-slack",
   "title": "Multi-Workspace Status for Slack",
   "description": "Set your status once and apply it across all your selected Slack workspaces.",
   "icon": "extension-icon.png",
