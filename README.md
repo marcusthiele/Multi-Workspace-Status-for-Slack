@@ -146,8 +146,8 @@ Open an [issue](https://github.com/marcusthiele/Multi-Workspace-Status-for-Slack
 Add an entry at the top of `CHANGELOG.md` and commit it, then create and push a tag:
 
 ```bash
-git tag -a v0.2.0 -m "v0.2.0"
-git push origin v0.2.0
+git tag -a v1.1.0 -m "v1.1.0"
+git push origin v1.1.0
 ```
 
 The [release workflow](.github/workflows/release.yml) runs the tests, lint, and build, then creates
