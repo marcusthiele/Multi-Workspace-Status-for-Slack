@@ -10,6 +10,9 @@
 [![macOS](https://img.shields.io/badge/macOS-only-7C2E8A?style=for-the-badge&logo=apple&logoColor=white)](#-installation)
 [![License](https://img.shields.io/badge/License-MIT-7C2E8A?style=for-the-badge)](LICENSE)
 
+[![Repository](https://img.shields.io/badge/💾_Repository-3A1248?style=for-the-badge)](https://github.com/marcusthiele/Multi-Workspace-Status-for-Slack)
+[![Issues](https://img.shields.io/badge/🐛_Issues-3A1248?style=for-the-badge)](https://github.com/marcusthiele/Multi-Workspace-Status-for-Slack/issues)
+
 </div>
 
 ## 🚀 What it does
@@ -42,15 +45,13 @@ Shortcuts in `Set Status`:
 
 ## 🔥 Installation
 
-### Raycast Store
-
-The extension isn't available in the Raycast Store yet.
-
 ### Build from source
 
-Building needs Node.js 22.22.2 or later. Run this in the extension folder:
+Building needs Node.js 22.22.2 or later.
 
 ```bash
+git clone https://github.com/marcusthiele/Multi-Workspace-Status-for-Slack.git
+cd Multi-Workspace-Status-for-Slack
 npm install
 npm run dev
 ```
@@ -137,8 +138,7 @@ To disconnect a workspace, remove it in **Manage Workspaces** and then delete th
 
 ## 👥 Contributing
 
-Open an [issue](https://github.com/raycast/extensions/issues) in the Raycast extensions repository
-for bugs and ideas. Pull requests are welcome.
+Open an [issue](https://github.com/marcusthiele/Multi-Workspace-Status-for-Slack/issues) for bugs and ideas. Pull requests are welcome.
 
 ## ℹ️ Disclaimer
 
